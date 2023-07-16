@@ -36,7 +36,6 @@ nav a{
 
 }
 nav ul{
-    border: solid 1px red;
     margin-right: 5%;
 
 }
@@ -113,16 +112,18 @@ li a:hover{
     padding: 50px;
     text-align: center;
 }
-.servicos h2{
-    font-size: 20px;
-    color: #a2caa4;
 
-}
 .servicos .card{
     text-align: center;
     width: 40%;
-    height: 270px;
-    margin: 5%;    
+    height: 400px;
+    margin: 30px auto;   
+}
+.servicos .card h2{
+    font-size: 20px;
+    color: #a2caa4;
+    margin-bottom: 10px;
+
 }
 .servicos .card img{
     border-radius: 5%;
@@ -143,13 +144,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center ;
-    background-color: #000000;
     padding: 50px;
+    background-color: #000000;
 
 }
 #footer-contacts{
     display: flex;
-    gap: .8rem;
+    gap: .9rem;
 }
 
 footer p{
@@ -229,12 +230,24 @@ footer p{
     .servicos h3{
         font-size: 15px;
     }
-    .servicos h2{
-    }
+
 
     .servicos .card{
         width: 80%;
         height: 300px;
-        margin: auto;
+        margin: 50px auto;
+
+    }
+    .servicos .card h2{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .servicos article p{
+        font-size:15px;
+    }
+    footer p{
+
+        font-size: 11px;
+
     }
 }
