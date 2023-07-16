@@ -243,7 +243,8 @@ footer p{
         padding: 10px;
     }
     .servicos article p{
-        font-size:15px;
+        font-size: 15px;
+        padding: 30px 5px;
     }
     footer p{
 
