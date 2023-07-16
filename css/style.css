@@ -65,7 +65,7 @@ li a:hover{
 }
 .quem-somos{
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 5%;
 }
 .quem-somos h1{
@@ -205,11 +205,14 @@ footer p{
     .quem-somos h1{
         color: #ffffff;
         font-size: 25px;
+        padding: 5px;
+
     
     }
     .quem-somos h3{
         color: #ffffff;
         font-size: 15px;
+        padding: 5px;
     
     }
 
@@ -219,6 +222,8 @@ footer p{
     }
     #sobre div h2{
         font-size: 20px;
+        padding: 20px 5px;
+
     }
     #sobre div p{
         font-size: 12px;
