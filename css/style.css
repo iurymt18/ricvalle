@@ -150,16 +150,21 @@ footer{
 }
 #footer-contacts{
     display: flex;
+
     gap: .9rem;
 }
 
-footer p{
-    color: #ffffff;
+footer a{
     display: flex;
     align-items: center;
-    margin: 0;
-    padding: 0;
-    
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
+
+
+}
+footer a:hover{
+    color: #49a128;
 }
 
 #footer-contacts .footer-link{
@@ -194,25 +199,25 @@ footer p{
 
     }
     nav .ricvalle{
-        font-size: 20px;
+        font-size: 25px;
         
     }
     nav li{
-        font-size: 15px;
+        font-size: 13px;
         margin-right: 5px;
     }
 
     .quem-somos h1{
         color: #ffffff;
         font-size: 25px;
-        padding: 5px;
+        padding: 10px;
 
     
     }
     .quem-somos h3{
         color: #ffffff;
         font-size: 15px;
-        padding: 5px;
+        padding: 10px;
     
     }
 
@@ -251,9 +256,31 @@ footer p{
         font-size: 15px;
         padding: 30px 5px;
     }
-    footer p{
 
-        font-size: 11px;
+    
+    footer #footer-contacts{
+        display: flex;
+        align-items: center;
+        gap: .8rem;
 
     }
+
+    footer a{
+        font-size: 12px;
+        text-decoration: none;
+        color: #ffffff;
+        white-space: nowrap;
+        align-items: center;
+
+    }
+    #whatsapp{
+        background-color: #49a128;
+        font-size: 1.5rem;
+    }
+    #e-mail{
+        background-color: #ffffff;
+        font-size: 1.5rem;
+    
+}
+
 }
